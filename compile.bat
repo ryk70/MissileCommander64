@@ -63,6 +63,7 @@ rem MAIN COMPILE SEQUENCE
 :main
   set /A i=0
   mkdir log >NUL
+  mkdir %build%
 
   echo.
   echo Entering source folder...
